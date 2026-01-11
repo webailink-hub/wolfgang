@@ -184,11 +184,11 @@
                     <a href="#upcoming" class="text-sm uppercase tracking-wider hover:text-gold-400 transition-colors" data-i18n="nav_upcoming">Concerts</a>
                     <a href="#writings" class="text-sm uppercase tracking-wider hover:text-gold-400 transition-colors" data-i18n="nav_writings">Writings</a>
                     <a href="#classes" class="text-sm uppercase tracking-wider hover:text-gold-400 transition-colors" data-i18n="nav_classes">Classes</a>
-                    <a href="#contact" class="text-sm uppercase tracking-wider hover:text-gold-400 transition-colors" data-i18n="nav_contact">Contact</a>
+                    <!-- Contact Link Removed -->
                     
                     <!-- Language Toggle -->
                     <button id="lang-toggle" onclick="toggleLanguage()" class="ml-2 px-3 py-1 border border-stone-600 rounded-full text-xs font-semibold hover:border-gold-500 hover:text-gold-500 transition-all">
-                        DE / <span class="text-white">EN</span>
+                        DE / ZH / <span class="text-white">EN</span>
                     </button>
                 </div>
 
@@ -241,10 +241,10 @@
                 <a href="#upcoming" onclick="toggleMobileMenu()" class="block px-3 py-3 text-lg font-medium hover:text-gold-400 border-b border-stone-800" data-i18n="nav_upcoming">Concerts</a>
                 <a href="#writings" onclick="toggleMobileMenu()" class="block px-3 py-3 text-lg font-medium hover:text-gold-400 border-b border-stone-800" data-i18n="nav_writings">Writings</a>
                 <a href="#classes" onclick="toggleMobileMenu()" class="block px-3 py-3 text-lg font-medium hover:text-gold-400 border-b border-stone-800" data-i18n="nav_classes">Classes</a>
-                <a href="#contact" onclick="toggleMobileMenu()" class="block px-3 py-3 text-lg font-medium hover:text-gold-400 border-b border-stone-800" data-i18n="nav_contact">Contact</a>
+                <!-- Contact Link Removed -->
                 
                 <button onclick="toggleLanguage(); toggleMobileMenu()" class="mt-6 mx-3 px-6 py-3 border border-stone-600 rounded-full text-base hover:border-gold-500 hover:text-gold-500 w-auto inline-block">
-                    Switch Language (DE/EN)
+                    Switch Language (DE/ZH/EN)
                 </button>
             </div>
         </div>
@@ -376,7 +376,7 @@
                     </div>
                 </div>
                 <div>
-                    <a href="#" class="inline-block px-8 py-4 border border-gold-500 text-gold-500 hover:bg-gold-500 hover:text-black transition-all uppercase tracking-widest text-sm font-semibold">
+                    <a href="https://off-theater.at/project/roundabout/" target="_blank" class="inline-block px-8 py-4 border border-gold-500 text-gold-500 hover:bg-gold-500 hover:text-black transition-all uppercase tracking-widest text-sm font-semibold">
                         Get Tickets
                     </a>
                 </div>
@@ -408,22 +408,23 @@
                      <h3 class="text-2xl font-serif text-white" data-i18n="cat_albums">Selected Albums</h3>
                      <div class="h-px bg-stone-800 flex-grow"></div>
                 </div>
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                     <!-- Album 1 -->
                     <div class="group">
                         <div class="w-full aspect-square bg-stone-800 overflow-hidden mb-4 relative rounded shadow-lg">
-                            <img src="https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?q=80&w=400&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            <img src="NM aus Österreich.jpg" alt="Neue Musik aus Österreich" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                             <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                                 <i class="fa-solid fa-compact-disc text-3xl text-white"></i>
                             </div>
                         </div>
-                        <h4 class="text-white text-sm font-semibold">Neue Musik Aus Österreich</h4>
+                        <h4 class="text-white text-sm font-semibold">Neue Musik aus Österreich</h4>
                         <p class="text-xs text-stone-500">ORF Edition</p>
                     </div>
+                    
                     <!-- Album 2 -->
                     <div class="group">
                         <div class="w-full aspect-square bg-stone-800 overflow-hidden mb-4 relative rounded shadow-lg">
-                            <img src="https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=400&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            <img src="21st century portraits.jpg" alt="21st Century Portraits" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                             <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                                 <i class="fa-solid fa-compact-disc text-3xl text-white"></i>
                             </div>
@@ -431,10 +432,90 @@
                         <h4 class="text-white text-sm font-semibold">21st Century Portraits</h4>
                         <p class="text-xs text-stone-500">Capriccio</p>
                     </div>
-                     <!-- Placeholders for more albums -->
-                     <div class="group bg-stone-900/30 rounded border border-stone-800 border-dashed flex items-center justify-center aspect-square">
-                        <span class="text-stone-600 text-xs text-center px-4">More Releases Available</span>
-                     </div>
+
+                    <!-- Album 3 -->
+                    <div class="group">
+                        <div class="w-full aspect-square bg-stone-800 overflow-hidden mb-4 relative rounded shadow-lg">
+                            <img src="Broken Beethoven_Vinyl.jpg" alt="Broken Beethoven" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                                <i class="fa-solid fa-compact-disc text-3xl text-white"></i>
+                            </div>
+                        </div>
+                        <h4 class="text-white text-sm font-semibold">Broken Beethoven</h4>
+                        <p class="text-xs text-stone-500">Vinyl Edition</p>
+                    </div>
+
+                    <!-- Album 4 -->
+                    <div class="group">
+                        <div class="w-full aspect-square bg-stone-800 overflow-hidden mb-4 relative rounded shadow-lg">
+                            <img src="piano project.jpg" alt="Piano Project" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                                <i class="fa-solid fa-compact-disc text-3xl text-white"></i>
+                            </div>
+                        </div>
+                        <h4 class="text-white text-sm font-semibold">Piano Project 03</h4>
+                        <p class="text-xs text-stone-500">Ensemble Sofia</p>
+                    </div>
+
+                    <!-- Album 5 -->
+                    <div class="group">
+                        <div class="w-full aspect-square bg-stone-800 overflow-hidden mb-4 relative rounded shadow-lg">
+                            <img src="unerhört.jpg" alt="Unerhört" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                                <i class="fa-solid fa-compact-disc text-3xl text-white"></i>
+                            </div>
+                        </div>
+                        <h4 class="text-white text-sm font-semibold">Unerhört</h4>
+                        <p class="text-xs text-stone-500">Neue Musik aus Kärnten</p>
+                    </div>
+
+                    <!-- Album 6 -->
+                    <div class="group">
+                        <div class="w-full aspect-square bg-stone-800 overflow-hidden mb-4 relative rounded shadow-lg">
+                            <img src="Wien - gegen den Strich.webp" alt="Wien - gegen den Strich" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                                <i class="fa-solid fa-compact-disc text-3xl text-white"></i>
+                            </div>
+                        </div>
+                        <h4 class="text-white text-sm font-semibold">Wien - gegen den Strich</h4>
+                        <p class="text-xs text-stone-500">Gramola Vienna</p>
+                    </div>
+
+                    <!-- Album 7 -->
+                    <div class="group">
+                        <div class="w-full aspect-square bg-stone-800 overflow-hidden mb-4 relative rounded shadow-lg">
+                            <img src="102 masterpieces.jpg" alt="102 Masterpieces" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                                <i class="fa-solid fa-compact-disc text-3xl text-white"></i>
+                            </div>
+                        </div>
+                        <h4 class="text-white text-sm font-semibold">102 Masterpieces</h4>
+                        <p class="text-xs text-stone-500">RSO Vienna Miniatures</p>
+                    </div>
+
+                    <!-- Album 8 -->
+                    <div class="group">
+                        <div class="w-full aspect-square bg-stone-800 overflow-hidden mb-4 relative rounded shadow-lg">
+                            <img src="Orpheus400.jpg" alt="Orpheus 400" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                                <i class="fa-solid fa-compact-disc text-3xl text-white"></i>
+                            </div>
+                        </div>
+                        <h4 class="text-white text-sm font-semibold">Orpheus 400</h4>
+                        <p class="text-xs text-stone-500">Degem CD9</p>
+                    </div>
+
+                    <!-- Album 9 -->
+                    <div class="group">
+                        <div class="w-full aspect-square bg-stone-800 overflow-hidden mb-4 relative rounded shadow-lg">
+                            <img src="Neue Werke.jpg" alt="Neue Werke" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                                <i class="fa-solid fa-compact-disc text-3xl text-white"></i>
+                            </div>
+                        </div>
+                        <h4 class="text-white text-sm font-semibold">Neue Werke</h4>
+                        <p class="text-xs text-stone-500">Hochschule für Musik</p>
+                    </div>
                 </div>
             </div>
 
@@ -595,26 +676,7 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-24 bg-stone-950">
-        <div class="max-w-xl mx-auto px-6">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl md:text-4xl font-serif text-white mb-4" data-i18n="contact_title">Contact</h2>
-                <p class="text-stone-400" data-i18n="contact_sub">For commissions, scores, and general inquiries.</p>
-            </div>
-
-            <form class="space-y-6" onsubmit="event.preventDefault(); alert('Thank you for your message.');">
-                <div class="grid grid-cols-2 gap-4">
-                    <input type="text" class="w-full bg-stone-900 border border-stone-800 text-white p-3 focus:outline-none focus:border-gold-500 transition-colors" placeholder="Name">
-                    <input type="email" class="w-full bg-stone-900 border border-stone-800 text-white p-3 focus:outline-none focus:border-gold-500 transition-colors" placeholder="Email">
-                </div>
-                <textarea rows="5" class="w-full bg-stone-900 border border-stone-800 text-white p-3 focus:outline-none focus:border-gold-500 transition-colors" placeholder="Message"></textarea>
-                <button type="submit" class="w-full bg-gold-600 text-black font-semibold uppercase tracking-wider py-4 hover:bg-gold-500 transition-all" data-i18n="form_btn">
-                    Send Message
-                </button>
-            </form>
-        </div>
-    </section>
+    <!-- Contact Section Removed -->
 
     <!-- Footer -->
     <footer class="bg-stone-950 py-12 border-t border-stone-900">
@@ -663,7 +725,7 @@
                 nav_upcoming: "Concerts",
                 nav_writings: "Writings",
                 nav_classes: "Classes",
-                nav_contact: "Contact",
+                // nav_contact removed
                 cat_albums: "Selected Albums",
                 cat_opera: "Opera",
                 cat_orchestra: "Orchestra Works",
@@ -693,9 +755,9 @@
                 classes_title: "Book a Class",
                 classes_sub: "Schedule a consultation or composition lesson directly.",
                 loc_title: "Performance History",
-                contact_title: "Contact",
-                contact_sub: "For commissions, scores, and general inquiries.",
-                form_btn: "Send Message",
+                // contact_title removed
+                // contact_sub removed
+                // form_btn removed
                 footer_imprint: "Imprint",
                 footer_privacy: "Privacy Policy"
             },
@@ -709,7 +771,7 @@
                 nav_upcoming: "Konzerte",
                 nav_writings: "Texte",
                 nav_classes: "Kurse",
-                nav_contact: "Kontakt",
+                // nav_contact removed
                 cat_albums: "Ausgewählte Alben",
                 cat_opera: "Oper",
                 cat_orchestra: "Orchesterwerke",
@@ -739,11 +801,57 @@
                 classes_title: "Kurs Buchen",
                 classes_sub: "Vereinbaren Sie direkt eine Beratung oder Kompositionsstunde.",
                 loc_title: "Aufführungshistorie",
-                contact_title: "Kontakt",
-                contact_sub: "Für Aufträge, Partituren und allgemeine Anfragen.",
-                form_btn: "Nachricht Senden",
+                // contact_title removed
+                // contact_sub removed
+                // form_btn removed
                 footer_imprint: "Impressum",
                 footer_privacy: "Datenschutzerklärung"
+            },
+            zh: {
+                nav_bio: "傳記",
+                nav_news: "新聞",
+                nav_news_latest: "最新消息",
+                nav_news_archives: "檔案",
+                nav_disco: "唱片",
+                nav_listening: "試聽",
+                nav_upcoming: "音樂會",
+                nav_writings: "著作",
+                nav_classes: "課程",
+                // nav_contact removed
+                cat_albums: "精選專輯",
+                cat_opera: "歌劇",
+                cat_orchestra: "管弦樂作品",
+                cat_ensembles: "器樂合奏",
+                cat_chamber: "室內樂",
+                cat_vocal: "聲樂作品",
+                cat_instrumental: "器樂音樂",
+                cat_soundscapes: "音景與廣播作品",
+                cat_arrangements: "改編作品",
+
+                hero_subtitle: "當代作曲家 聲音研究員 教育家",
+                hero_cta: "探索作品",
+                bio_title: "傳記",
+                gallery_title: "畫廊",
+                bio_p1: "Wolfgang Liebhart 於 1958 年出生於奧地利克拉根福。他在維也納音樂學院師從 Francis Burt 學習作曲。",
+                bio_p2: "1994年至1995年，他居住在羅馬，私下師從意大利作曲家 Luca Lombardi。在他逗留期間，許多作品在永恆之城演出。",
+                bio_p3: "回到維也納後，他開始作為自由作曲家工作。Liebhart 為各種器樂組合創作了許多委託作品。",
+                news_title: "新聞",
+                view_archives: "查看檔案 →",
+                news_archives: "檔案",
+                upcoming_title: "即將舉行的音樂會",
+                works_title: "作品",
+                works_intro: "作品與錄音的綜合目錄。",
+                listening_title: "試聽",
+                disco_title: "唱片與作品",
+                writings_title: "著作",
+                classes_title: "預約課程",
+                classes_sub: "直接預約諮詢或作曲課程。",
+                loc_title: "演出歷史",
+                // contact_title removed
+                // contact_sub removed
+                // form_btn removed
+                footer_imprint: "版本說明",
+                footer_privacy: "隱私政策"
             }
         };
 
@@ -751,14 +859,22 @@
 
         // Toggle Language Function
         function toggleLanguage() {
-            currentLang = currentLang === 'en' ? 'de' : 'en';
+            if (currentLang === 'en') {
+                currentLang = 'de';
+            } else if (currentLang === 'de') {
+                currentLang = 'zh';
+            } else {
+                currentLang = 'en';
+            }
             
             // Update Toggle Button Text
             const btn = document.getElementById('lang-toggle');
             if (currentLang === 'en') {
-                btn.innerHTML = 'DE / <span class="text-white">EN</span>';
+                btn.innerHTML = 'DE / ZH / <span class="text-white">EN</span>';
+            } else if (currentLang === 'de') {
+                btn.innerHTML = '<span class="text-white">DE</span> / ZH / EN';
             } else {
-                btn.innerHTML = '<span class="text-white">DE</span> / EN';
+                btn.innerHTML = 'DE / <span class="text-white">ZH</span> / EN';
             }
 
             // Update all elements with data-i18n attribute
